@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+<div id="preloader"></div>
+
+
+
  
     <nav class="flex-div">
         <div class="nav-left flex-div">
@@ -23,6 +28,7 @@
         </div>
         <div class="nav-right">
             <img src="images/upload.png">
+            <a href="feedback.html"><img src="images/feedback.png" alt=""></a>
             <img src="images/more.png">
             <img src="images/notification.png" >
             <img src="images/gerard.png"  class="user-icon">
@@ -162,23 +168,38 @@
                 </div>
 
             </div>
-
             
-                        
-                        
-                
-                
-        
-        
-        
-
     </div>
+ 
 
-    </div>
-
-
-
+<div class="Copyright">
+    <hr>
+ <p>©VidTube LLC</p>
+</div>
 
     <script src="script.js"></script>
+
+
+    <script>
+        var loader = document.getElementById("preloader");
+       
+        window.addEventListener("load", function(){
+        loader.style.display = "none";
+       }) 
+
+       </script>
+
+
+
+
+<div id="l">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/NN1z7yKOzTs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NN1z7yKOzTs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NN1z7yKOzTs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+</div>
+
 </body>
 </html>
